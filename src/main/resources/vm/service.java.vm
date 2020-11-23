@@ -1,0 +1,26 @@
+package ${package.Service};
+
+import ${package.Entity}.${entity};
+import ${superServiceClassPackage};
+import java.util.List;
+/**
+ * <p>
+ * $!{table.name} 服务类
+ * </p>
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+public interface ${table.serviceName} extends ${superServiceClass}<${entity}> {
+
+        ${entity} find${entity}ById(Long ${table.entityPath}Id);
+
+        List<${entity}> findAll${entity}(${entity} ${table.entityPath});
+
+        void add${entity}(${entity} ${table.entityPath});
+
+        void update${entity}(${entity} ${table.entityPath});
+
+        void delete${entity}Batch(String ${table.entityPath}Ids);
+
+}

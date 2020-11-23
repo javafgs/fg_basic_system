@@ -1,0 +1,130 @@
+<configuration scan="true" scanPeriod="5" debug="false">
+    <!-- 属性文件:在yml文件中找到对应的配置项 -->
+    <springProperty scope="context" name="logging.path"  source="logging.file.path"/>
+    <springProperty scope="context" name="logging.level" source="logging.level.com.fg.system.modules"/>
+    <!--    日志输出的格式,带log位置编号-->
+    <property name="PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t-%L] %-5level %logger{50} %L %M - %msg%xEx%n"/>
+    <!--<property name="PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n"/>-->
+    <contextName>logback</contextName>
+    <!-- 默认的控制台日志输出，一般生产环境都是后台启动，这个没太大作用 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!--<Pattern>%d{HH:mm:ss.SSS} %-5level %logger{80} - %msg%n</Pattern>-->
+            <pattern>${PATTERN}</pattern>
+        </encoder>
+    </appender>
+    <!--springProfile用来隔离环境，只有对应环境下才会进入-->
+    <springProfile name="prod">
+    <!--打印日志到fg-controller.log的appender-->
+    <appender name="FG-INFO"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <append>true</append>
+
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <!--如果命中了就接受 -->
+            <onMatch>ACCEPT</onMatch>
+            <!--如果没有命中就过滤 -->
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <!--日志名称，如果没有File 属性，那么只会使用FileNamePattern的文件路径规则
+           如果同时有<File>和<FileNamePattern>，那么当天日志是<File>，明天会自动把今天
+           的日志改名为今天的日期。就是说<File> 的日志都是当天的。 -->
+        <file>
+            ${logging.path}/fg-info.log
+        </file>
+        <!--滚动策略，按照时间滚动 TimeBasedRollingPolicy-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--文件路径,定义了日志的切分方式——把每一天的日志归档到一个文件中,以防止日志填满整个磁盘空间-->
+            <FileNamePattern>${logging.path}/fg-info.log.%d{yyyy-MM-dd}</FileNamePattern>
+            <!--只保留最近30天的日志-->
+            <MaxHistory>30</MaxHistory>
+            <!--用来指定日志文件的上限大小，那么到了这个值，就会删除旧的日志-->
+            <!--<totalSizeCap>1GB</totalSizeCap>-->
+        </rollingPolicy>
+        <!--日志输出编码格式化-->
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+    <!--打印日志到fg-debug.log的appender-->
+    <appender name="FG-DEBUG"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <append>true</append>
+
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>DEBUG</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <file>
+            ${logging.path}/fg-debug.log
+        </file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${logging.path}/fg-debug.log.%d{yyyy-MM-dd}</FileNamePattern>
+            <MaxHistory>30</MaxHistory>
+        </rollingPolicy>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+    <!--打印日志到fg-error.log的appender-->
+    <appender name="FG-ERROR"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <append>true</append>
+        <!-- 过滤器，只记录 error 级别的日志 -->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>error</level>
+        </filter>
+        <file>
+            ${logging.path}/fg-error.log
+        </file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${logging.path}/fg-error.log.%d{yyyy-MM-dd}</FileNamePattern>
+            <MaxHistory>30</MaxHistory>
+        </rollingPolicy>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+    </springProfile>
+
+    <springProfile name="prod">
+    <logger name="com.fg.system.modules" level="${logging.level}"
+            additivity="false">
+        <appender-ref ref="FG-INFO" />
+        <appender-ref ref="FG-DEBUG" />
+        <appender-ref ref="FG-ERROR" />
+    </logger>
+   <!-- <logger name="com.fg.system.modules.*.service" level="${logging.level}"
+            additivity="false">
+        <appender-ref ref="FG-SERVICE" />
+        <appender-ref ref="FG-ERROR" />
+    </logger>
+
+    <logger name="com.fg.system.modules.*.dao" level="DEBUG" >
+        <appender-ref ref="FG-SERVICE" />
+    </logger>-->
+
+        <!--    定义指定package的日志级别-->
+        <!--<logger name="org.springframework" level="DEBUG"></logger>
+        <logger name="org.mybatis" level="DEBUG"></logger>
+        <logger name="java.sql.Connection" level="DEBUG"></logger>
+        <logger name="java.sql.Statement" level="DEBUG"></logger>
+        <logger name="java.sql.PreparedStatement" level="DEBUG"></logger>
+        <logger name="io.lettuce.*" level="INFO"></logger>
+        <logger name="io.netty.*" level="ERROR"></logger>
+        <logger name="com.rabbitmq.*" level="DEBUG"></logger>
+        <logger name="org.springframework.amqp.*" level="DEBUG"></logger>
+        <logger name="org.springframework.scheduling.*" level="DEBUG"></logger>-->
+    </springProfile>
+
+        <!--指定最基础的日志输出级别-->
+        <root level="INFO">
+            <appender-ref ref="STDOUT"/>
+        </root>
+</configuration>

@@ -1,0 +1,67 @@
+2020-10-14 11:22:19.566 [http-nio-8080-exec-5-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==>  Preparing: SELECT COUNT(1) FROM mobile_user 
+2020-10-14 11:22:19.618 [http-nio-8080-exec-5-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==> Parameters: 
+2020-10-14 11:22:19.711 [http-nio-8080-exec-5-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user ORDER BY id DESC LIMIT ?,? 
+2020-10-14 11:22:19.714 [http-nio-8080-exec-5-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==> Parameters: 0(Long), 10(Long)
+2020-10-14 11:22:19.729 [http-nio-8080-exec-5-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - <==      Total: 2
+2020-10-14 11:26:12.968 [http-nio-8080-exec-4-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==>  Preparing: SELECT COUNT(1) FROM mobile_user 
+2020-10-14 11:26:13.013 [http-nio-8080-exec-4-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==> Parameters: 
+2020-10-14 11:26:13.500 [http-nio-8080-exec-4-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user ORDER BY id DESC LIMIT ?,? 
+2020-10-14 11:26:13.503 [http-nio-8080-exec-4-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==> Parameters: 0(Long), 10(Long)
+2020-10-14 11:26:13.513 [http-nio-8080-exec-4-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - <==      Total: 2
+2020-10-14 13:33:13.020 [http-nio-8080-exec-6-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==>  Preparing: SELECT COUNT(1) FROM mobile_user 
+2020-10-14 13:33:13.101 [http-nio-8080-exec-6-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==> Parameters: 
+2020-10-14 13:33:13.243 [http-nio-8080-exec-6-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user ORDER BY id DESC LIMIT ?,? 
+2020-10-14 13:33:13.246 [http-nio-8080-exec-6-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==> Parameters: 0(Long), 10(Long)
+2020-10-14 13:33:13.261 [http-nio-8080-exec-6-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - <==      Total: 2
+2020-10-14 13:34:49.366 [http-nio-8080-exec-5-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==>  Preparing: SELECT COUNT(1) FROM mobile_user 
+2020-10-14 13:34:49.406 [http-nio-8080-exec-5-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==> Parameters: 
+2020-10-14 13:34:49.513 [http-nio-8080-exec-5-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user ORDER BY id DESC LIMIT ?,? 
+2020-10-14 13:34:49.516 [http-nio-8080-exec-5-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==> Parameters: 0(Long), 10(Long)
+2020-10-14 13:34:49.530 [http-nio-8080-exec-5-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - <==      Total: 2
+2020-10-14 14:44:31.852 [http-nio-8080-exec-9-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==>  Preparing: SELECT COUNT(1) FROM mobile_user 
+2020-10-14 14:44:31.994 [http-nio-8080-exec-9-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==> Parameters: 
+2020-10-14 14:44:32.172 [http-nio-8080-exec-9-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user ORDER BY id DESC LIMIT ?,? 
+2020-10-14 14:44:32.177 [http-nio-8080-exec-9-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==> Parameters: 0(Long), 10(Long)
+2020-10-14 14:44:32.195 [http-nio-8080-exec-9-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - <==      Total: 2
+2020-10-14 14:48:28.665 [http-nio-8080-exec-10-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==>  Preparing: SELECT COUNT(1) FROM mobile_user 
+2020-10-14 14:48:28.704 [http-nio-8080-exec-10-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==> Parameters: 
+2020-10-14 14:48:29.050 [http-nio-8080-exec-10-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user ORDER BY id DESC LIMIT ?,? 
+2020-10-14 14:48:29.052 [http-nio-8080-exec-10-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==> Parameters: 0(Long), 10(Long)
+2020-10-14 14:48:29.062 [http-nio-8080-exec-10-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - <==      Total: 2
+2020-10-14 15:00:11.781 [http-nio-8080-exec-5-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==>  Preparing: SELECT COUNT(1) FROM mobile_user 
+2020-10-14 15:00:11.821 [http-nio-8080-exec-5-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==> Parameters: 
+2020-10-14 15:00:12.006 [http-nio-8080-exec-5-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user ORDER BY id DESC LIMIT ?,? 
+2020-10-14 15:00:12.010 [http-nio-8080-exec-5-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==> Parameters: 0(Long), 10(Long)
+2020-10-14 15:00:12.021 [http-nio-8080-exec-5-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - <==      Total: 2
+2020-10-14 15:02:01.755 [http-nio-8080-exec-8-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==>  Preparing: SELECT COUNT(1) FROM mobile_user 
+2020-10-14 15:02:01.756 [http-nio-8080-exec-8-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==> Parameters: 
+2020-10-14 15:02:01.760 [http-nio-8080-exec-8-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user ORDER BY id DESC LIMIT ?,? 
+2020-10-14 15:02:01.762 [http-nio-8080-exec-8-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - ==> Parameters: 0(Long), 10(Long)
+2020-10-14 15:02:01.770 [http-nio-8080-exec-8-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectPage 143 debug - <==      Total: 2
+2020-10-14 15:51:01.816 [Thread-192-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user 
+2020-10-14 15:51:02.023 [Thread-192-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==> Parameters: 
+2020-10-14 15:51:02.166 [Thread-192-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - <==      Total: 2
+2020-10-14 16:18:20.888 [Thread-189-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user 
+2020-10-14 16:18:20.990 [Thread-189-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==> Parameters: 
+2020-10-14 16:18:21.105 [Thread-189-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - <==      Total: 2
+2020-10-14 16:19:18.329 [Thread-189-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user 
+2020-10-14 16:19:18.383 [Thread-189-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==> Parameters: 
+2020-10-14 16:19:18.559 [Thread-189-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - <==      Total: 2
+2020-10-14 16:21:24.543 [Thread-189-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user 
+2020-10-14 16:21:24.627 [Thread-189-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==> Parameters: 
+2020-10-14 16:21:24.759 [Thread-189-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - <==      Total: 2
+2020-10-14 16:22:20.077 [Thread-190-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user 
+2020-10-14 16:22:20.151 [Thread-190-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==> Parameters: 
+2020-10-14 16:22:20.200 [Thread-190-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - <==      Total: 2
+2020-10-14 16:28:35.944 [Thread-190-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user 
+2020-10-14 16:28:35.999 [Thread-190-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==> Parameters: 
+2020-10-14 16:28:36.243 [Thread-190-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - <==      Total: 2
+2020-10-14 16:29:49.681 [Thread-189-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user 
+2020-10-14 16:29:49.742 [Thread-189-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==> Parameters: 
+2020-10-14 16:29:49.797 [Thread-189-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - <==      Total: 2
+2020-10-14 16:48:43.538 [http-nio-8080-exec-3-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user 
+2020-10-14 16:48:43.665 [http-nio-8080-exec-3-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==> Parameters: 
+2020-10-14 16:48:43.765 [http-nio-8080-exec-3-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - <==      Total: 2
+2020-10-14 17:01:18.677 [http-nio-8080-exec-2-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==>  Preparing: SELECT id,name,mobile FROM mobile_user 
+2020-10-14 17:01:18.837 [http-nio-8080-exec-2-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - ==> Parameters: 
+2020-10-14 17:01:18.943 [http-nio-8080-exec-2-143] DEBUG c.f.s.modules.mobile.dao.MobileUserDao.selectList 143 debug - <==      Total: 2

@@ -1,0 +1,155 @@
+2020-10-21 09:44:24.744 [main-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job
+2020-10-21 09:44:24.785 [main-143] DEBUG JobDao.selectList 143 debug - ==> Parameters:
+2020-10-21 09:44:24.920 [main-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 09:46:40.454 [main-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job
+2020-10-21 09:46:40.507 [main-143] DEBUG JobDao.selectList 143 debug - ==> Parameters:
+2020-10-21 09:46:40.612 [main-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 09:51:44.729 [http-nio-8080-exec-4-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 09:51:44.734 [http-nio-8080-exec-4-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 09:51:44.776 [http-nio-8080-exec-4-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 09:51:44.781 [http-nio-8080-exec-4-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 09:51:44.783 [http-nio-8080-exec-4-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 09:51:44.789 [http-nio-8080-exec-4-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 09:52:45.368 [http-nio-8080-exec-4-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 09:52:45.369 [http-nio-8080-exec-4-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 09:52:45.377 [http-nio-8080-exec-4-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 09:52:45.381 [http-nio-8080-exec-4-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 09:52:45.382 [http-nio-8080-exec-4-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 09:52:45.389 [http-nio-8080-exec-4-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 09:53:32.267 [http-nio-8080-exec-6-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 09:53:32.268 [http-nio-8080-exec-6-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 09:53:32.273 [http-nio-8080-exec-6-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 09:53:32.278 [http-nio-8080-exec-6-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 09:53:32.279 [http-nio-8080-exec-6-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 09:53:32.291 [http-nio-8080-exec-6-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 09:53:47.777 [http-nio-8080-exec-3-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 09:53:47.778 [http-nio-8080-exec-3-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 09:53:47.794 [http-nio-8080-exec-3-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 09:53:47.796 [http-nio-8080-exec-3-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 09:53:47.798 [http-nio-8080-exec-3-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 09:53:47.822 [http-nio-8080-exec-3-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 09:54:19.944 [main-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job
+2020-10-21 09:54:20.013 [main-143] DEBUG JobDao.selectList 143 debug - ==> Parameters:
+2020-10-21 09:54:20.109 [main-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 09:54:25.881 [http-nio-8080-exec-9-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 09:54:25.882 [http-nio-8080-exec-9-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 09:54:25.886 [http-nio-8080-exec-9-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 09:54:25.891 [http-nio-8080-exec-9-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 09:54:25.893 [http-nio-8080-exec-9-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 09:54:25.910 [http-nio-8080-exec-9-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 09:57:29.279 [http-nio-8080-exec-2-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 09:57:29.285 [http-nio-8080-exec-2-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 09:57:30.135 [http-nio-8080-exec-2-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 09:57:30.137 [http-nio-8080-exec-2-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 09:57:30.138 [http-nio-8080-exec-2-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 09:57:30.194 [http-nio-8080-exec-2-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 09:57:31.906 [http-nio-8080-exec-9-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 09:57:31.907 [http-nio-8080-exec-9-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 09:57:31.942 [http-nio-8080-exec-9-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 09:57:31.946 [http-nio-8080-exec-9-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 09:57:31.949 [http-nio-8080-exec-9-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 09:57:31.984 [http-nio-8080-exec-9-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 10:00:45.878 [main-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job
+2020-10-21 10:00:45.953 [main-143] DEBUG JobDao.selectList 143 debug - ==> Parameters:
+2020-10-21 10:00:46.125 [main-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 10:01:08.745 [http-nio-8080-exec-7-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 10:01:08.752 [http-nio-8080-exec-7-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 10:01:08.878 [http-nio-8080-exec-7-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 10:01:08.887 [http-nio-8080-exec-7-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 10:01:08.891 [http-nio-8080-exec-7-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 10:01:08.942 [http-nio-8080-exec-7-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 10:01:16.895 [http-nio-8080-exec-8-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 10:01:16.899 [http-nio-8080-exec-8-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 10:01:16.906 [http-nio-8080-exec-8-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 10:01:16.910 [http-nio-8080-exec-8-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 10:01:16.913 [http-nio-8080-exec-8-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 10:01:16.922 [http-nio-8080-exec-8-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 10:01:44.373 [http-nio-8080-exec-2-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 10:01:44.374 [http-nio-8080-exec-2-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 10:01:44.377 [http-nio-8080-exec-2-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 10:01:44.390 [http-nio-8080-exec-2-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 10:01:44.391 [http-nio-8080-exec-2-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 10:01:44.400 [http-nio-8080-exec-2-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 10:01:50.556 [http-nio-8080-exec-4-143] DEBUG JobDao.selectById 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job WHERE JOB_ID=?
+2020-10-21 10:01:50.558 [http-nio-8080-exec-4-143] DEBUG JobDao.selectById 143 debug - ==> Parameters: 11(Long)
+2020-10-21 10:01:50.562 [http-nio-8080-exec-4-143] DEBUG JobDao.selectById 143 debug - <==      Total: 1
+2020-10-21 10:05:35.390 [main-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job
+2020-10-21 10:05:35.470 [main-143] DEBUG JobDao.selectList 143 debug - ==> Parameters:
+2020-10-21 10:05:35.655 [main-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 10:05:49.857 [http-nio-8080-exec-9-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 10:05:49.858 [http-nio-8080-exec-9-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 10:05:50.033 [http-nio-8080-exec-9-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 10:05:50.040 [http-nio-8080-exec-9-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 10:05:50.042 [http-nio-8080-exec-9-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 10:05:50.074 [http-nio-8080-exec-9-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 10:05:51.781 [http-nio-8080-exec-3-143] DEBUG JobDao.selectById 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job WHERE JOB_ID=?
+2020-10-21 10:05:51.784 [http-nio-8080-exec-3-143] DEBUG JobDao.selectById 143 debug - ==> Parameters: 11(Long)
+2020-10-21 10:05:51.801 [http-nio-8080-exec-3-143] DEBUG JobDao.selectById 143 debug - <==      Total: 1
+2020-10-21 10:06:54.866 [main-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job
+2020-10-21 10:06:54.952 [main-143] DEBUG JobDao.selectList 143 debug - ==> Parameters:
+2020-10-21 10:06:55.132 [main-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 10:08:00.003 [http-nio-8080-exec-8-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 10:08:00.008 [http-nio-8080-exec-8-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 10:08:00.028 [http-nio-8080-exec-8-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 10:08:00.034 [http-nio-8080-exec-8-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 10:08:00.038 [http-nio-8080-exec-8-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 10:08:00.049 [http-nio-8080-exec-8-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 10:08:02.163 [http-nio-8080-exec-9-143] DEBUG JobDao.selectById 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job WHERE JOB_ID=?
+2020-10-21 10:08:02.165 [http-nio-8080-exec-9-143] DEBUG JobDao.selectById 143 debug - ==> Parameters: 11(Long)
+2020-10-21 10:08:02.315 [http-nio-8080-exec-9-143] DEBUG JobDao.selectById 143 debug - <==      Total: 1
+2020-10-21 10:08:57.748 [http-nio-8080-exec-10-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 10:08:57.750 [http-nio-8080-exec-10-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 10:08:57.762 [http-nio-8080-exec-10-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 10:08:57.772 [http-nio-8080-exec-10-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 10:08:57.774 [http-nio-8080-exec-10-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 10:08:57.781 [http-nio-8080-exec-10-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 10:09:01.421 [http-nio-8080-exec-6-143] DEBUG JobDao.selectById 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job WHERE JOB_ID=?
+2020-10-21 10:09:01.422 [http-nio-8080-exec-6-143] DEBUG JobDao.selectById 143 debug - ==> Parameters: 11(Long)
+2020-10-21 10:09:01.427 [http-nio-8080-exec-6-143] DEBUG JobDao.selectById 143 debug - <==      Total: 1
+2020-10-21 10:09:04.960 [http-nio-8080-exec-8-143] DEBUG JobDao.selectById 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job WHERE JOB_ID=?
+2020-10-21 10:09:04.961 [http-nio-8080-exec-8-143] DEBUG JobDao.selectById 143 debug - ==> Parameters: 11(Long)
+2020-10-21 10:09:05.288 [http-nio-8080-exec-8-143] DEBUG JobDao.selectById 143 debug - <==      Total: 1
+2020-10-21 10:09:06.447 [http-nio-8080-exec-1-143] DEBUG JobDao.selectById 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job WHERE JOB_ID=?
+2020-10-21 10:09:06.449 [http-nio-8080-exec-1-143] DEBUG JobDao.selectById 143 debug - ==> Parameters: 11(Long)
+2020-10-21 10:09:06.456 [http-nio-8080-exec-1-143] DEBUG JobDao.selectById 143 debug - <==      Total: 1
+2020-10-21 10:09:31.013 [http-nio-8080-exec-8-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 10:09:31.014 [http-nio-8080-exec-8-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 10:09:31.017 [http-nio-8080-exec-8-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 10:09:31.022 [http-nio-8080-exec-8-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 10:09:31.024 [http-nio-8080-exec-8-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 10:09:31.029 [http-nio-8080-exec-8-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 10:09:34.512 [http-nio-8080-exec-1-143] DEBUG JobDao.selectById 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job WHERE JOB_ID=?
+2020-10-21 10:09:34.513 [http-nio-8080-exec-1-143] DEBUG JobDao.selectById 143 debug - ==> Parameters: 11(Long)
+2020-10-21 10:09:34.577 [http-nio-8080-exec-1-143] DEBUG JobDao.selectById 143 debug - <==      Total: 1
+2020-10-21 10:09:55.872 [http-nio-8080-exec-10-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 10:09:55.873 [http-nio-8080-exec-10-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 10:09:55.885 [http-nio-8080-exec-10-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 10:09:55.889 [http-nio-8080-exec-10-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 10:09:55.890 [http-nio-8080-exec-10-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 10:09:55.907 [http-nio-8080-exec-10-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 10:09:58.223 [http-nio-8080-exec-6-143] DEBUG JobDao.selectById 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job WHERE JOB_ID=?
+2020-10-21 10:09:58.226 [http-nio-8080-exec-6-143] DEBUG JobDao.selectById 143 debug - ==> Parameters: 11(Long)
+2020-10-21 10:09:58.232 [http-nio-8080-exec-6-143] DEBUG JobDao.selectById 143 debug - <==      Total: 1
+2020-10-21 10:10:19.752 [http-nio-8080-exec-5-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 10:10:19.754 [http-nio-8080-exec-5-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 10:10:19.759 [http-nio-8080-exec-5-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 10:10:19.770 [http-nio-8080-exec-5-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 10:10:19.773 [http-nio-8080-exec-5-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 10:10:19.788 [http-nio-8080-exec-5-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 10:10:22.207 [http-nio-8080-exec-4-143] DEBUG JobDao.selectById 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job WHERE JOB_ID=?
+2020-10-21 10:10:22.221 [http-nio-8080-exec-4-143] DEBUG JobDao.selectById 143 debug - ==> Parameters: 11(Long)
+2020-10-21 10:10:22.229 [http-nio-8080-exec-4-143] DEBUG JobDao.selectById 143 debug - <==      Total: 1
+2020-10-21 10:10:50.432 [http-nio-8080-exec-2-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==>  Preparing: SELECT count(0) FROM t_job 
+2020-10-21 10:10:50.433 [http-nio-8080-exec-2-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - ==> Parameters: 
+2020-10-21 10:10:50.442 [http-nio-8080-exec-2-143] DEBUG c.f.system.modules.job.dao.JobDao.selectList_COUNT 143 debug - <==      Total: 1
+2020-10-21 10:10:50.446 [http-nio-8080-exec-2-143] DEBUG JobDao.selectList 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job ORDER BY JOB_ID DESC LIMIT ?
+2020-10-21 10:10:50.447 [http-nio-8080-exec-2-143] DEBUG JobDao.selectList 143 debug - ==> Parameters: 10(Integer)
+2020-10-21 10:10:50.462 [http-nio-8080-exec-2-143] DEBUG JobDao.selectList 143 debug - <==      Total: 4
+2020-10-21 10:10:55.475 [http-nio-8080-exec-5-143] DEBUG JobDao.selectById 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job WHERE JOB_ID=?
+2020-10-21 10:10:55.477 [http-nio-8080-exec-5-143] DEBUG JobDao.selectById 143 debug - ==> Parameters: 11(Long)
+2020-10-21 10:10:55.481 [http-nio-8080-exec-5-143] DEBUG JobDao.selectById 143 debug - <==      Total: 1
+2020-10-21 10:11:36.697 [http-nio-8080-exec-4-143] DEBUG JobDao.selectById 143 debug - ==>  Preparing: SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job WHERE JOB_ID=?
+2020-10-21 10:11:36.698 [http-nio-8080-exec-4-143] DEBUG JobDao.selectById 143 debug - ==> Parameters: 11(Long)
+2020-10-21 10:11:36.703 [http-nio-8080-exec-4-143] DEBUG JobDao.selectById 143 debug - <==      Total: 1
+2020-10-21 10:13:29.360 [http-nio-8080-exec-1-143] DEBUG JobDao.delete 143 debug - ==>  Preparing: DELETE FROM t_job WHERE (jobId IN (?))
+2020-10-21 10:13:29.366 [http-nio-8080-exec-1-143] DEBUG JobDao.delete 143 debug - ==> Parameters: 1(String)

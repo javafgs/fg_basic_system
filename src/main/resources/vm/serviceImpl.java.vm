@@ -1,0 +1,65 @@
+package ${package.ServiceImpl};
+
+import ${package.Entity}.${entity};
+import ${package.Mapper}.${table.mapperName};
+import ${package.Service}.${table.serviceName};
+import ${superServiceImplClassPackage};
+import org.springframework.stereotype.Service;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import java.util.*;
+import java.util.stream.Collectors;
+import org.apache.commons.lang3.StringUtils;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+/**
+ * <p>
+ * $!{table.name} 服务实现类
+ * </p>
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+@Service("${table.serviceName}")
+public class ${table.serviceImplName} extends ${superServiceImplClass}<${table.mapperName}, ${entity}> implements ${table.serviceName} {
+        private Logger log = LoggerFactory.getLogger(this.getClass());
+        @Autowired
+        private ${entity}Dao ${table.entityPath}Dao;
+
+        @Override
+        public ${entity} find${entity}ById(Long ${table.entityPath}Id) {
+                return this.getById(${table.entityPath}Id);
+        }
+
+        @Override
+        public List<${entity}> findAll${entity}(${entity} ${table.entityPath}) {
+            try {
+                QueryWrapper<${entity}> queryWrapper=new QueryWrapper();
+                return this.list(queryWrapper);
+            } catch (Exception e) {
+                log.error("获取${cfg.msgName}失败", e);
+                return new ArrayList<>();
+            }
+        }
+
+        @Override
+        @Transactional
+        public void add${entity}(${entity} ${table.entityPath}) {
+            this.save(${table.entityPath});
+        }
+
+        @Override
+        @Transactional
+        public void update${entity}(${entity} ${table.entityPath}) {
+            this.updateById(${table.entityPath});
+        }
+
+        @Override
+        @Transactional
+        public void delete${entity}Batch(String ${table.entityPath}Ids) {
+            List<String> list = Arrays.asList(${table.entityPath}Ids.split(","));
+            this.${table.entityPath}Dao.deleteBatchIds(list);
+        }
+}
