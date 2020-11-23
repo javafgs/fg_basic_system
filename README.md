@@ -1,0 +1,2 @@
+# fg_basic_system
+一套springboot+bootstrap后台管理系统的基础脚手架
